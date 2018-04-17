@@ -4,5 +4,8 @@
   },
   "dependencies": {
     "validated": "1.2.0"
+  },
+  "scripts": {
+    "test": "flow coverage --color date-node.js"
   }
 }

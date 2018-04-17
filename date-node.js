@@ -27,11 +27,6 @@ class DateNode extends v.Node<Date> {
           return new Date(value)
         }
       } else {
-        // context.error is not type-covered, so this is the hack to make that
-        // happen. We can lift the hack once this PR lands:
-        // https://github.com/andreypopp/validated/pull/15
-        // const errFn: (?GenericMessage) => ValidationError = context.error
-        // throw errFn.bind(context, 'This is not a Date: ' + JSON.stringify(value))
         throw context.error('This is not a Date: ' + JSON.stringify(value))
       }
     })
