@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "flow-bin": "0.70.0"
+  },
+  "dependencies": {
+    "validated": "1.2.0"
+  }
+}
