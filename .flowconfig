@@ -1,4 +1,5 @@
 [ignore]
+.*\/find-package-json.*
 
 [include]
 
