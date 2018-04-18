@@ -3,7 +3,7 @@
     "flow-bin": "0.69.0"
   },
   "dependencies": {
-    "validated": "1.2.0"
+    "validated": "git+https://github.com/LoganBarnett/validated.git#add-flow-coverage-pr"
   },
   "scripts": {
     "test": "flow coverage --color date-node.js"

@@ -56,9 +56,9 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-validated@1.2.0:
+"validated@git+https://github.com/LoganBarnett/validated.git#add-flow-coverage-pr":
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/validated/-/validated-1.2.0.tgz#44ca3791cd5b2fc24433f7d1ae3a8896dfe1aec3"
+  resolved "git+https://github.com/LoganBarnett/validated.git#2bbe8b6978a8111ecd4515562c7b8b5f486d2ecc"
   dependencies:
     commander "^2.9.0"
     custom-error-instance "^2.1.1"
